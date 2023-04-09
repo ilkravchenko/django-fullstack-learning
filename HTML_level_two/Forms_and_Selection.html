@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Feedback</title>
+</head>
+<body>
+    <h1>Hotel Feedback Form</h1>
+    <form method="get">
+        <!-- radio can click only once-->
+        <h3>Are you from inside USA? Or Outside?</h3>
+        <label for="inusa">Inside: </label>
+        <input id="inusa" type="radio" name="location" value="inside">
+
+        <label for="outsideusa">Outside: </label>
+        <input id="outsideusa" type="radio" name="location" value="Outside">
+
+        <h3>How was your service?</h3>
+
+        <select name="stars">
+            <option value="Great">3</option>
+            <option value="OK">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+        <h3>Any other feedback?</h3>
+        <textarea name="otherfeedback" cols="30" rows="10"></textarea>
+
+        <input type="submit" name="" value="SUBMIT">
+
+    </form>
+</body>
+</html>
