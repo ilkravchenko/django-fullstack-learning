@@ -1,0 +1,61 @@
+body{
+    background-color: #120e59;
+    color: white;
+    text-align: center;
+    border-left: 60px solid aqua;
+    border-bottom: 60px solid aqua;
+    border-right: 60px solid aqua;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.welcome{
+    margin: auto;
+}
+
+.about-company{
+    margin-top: 130px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+p{
+    margin-top: 130px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+form{
+    margin: auto;
+    margin-top: 70px;
+}
+
+label{
+    margin: auto;
+    display: block;
+    font-size: 1.5em;
+}
+
+.input{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 30px;
+}
+
+#submit-btn{
+    padding: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width: 140px;
+    height: 60px;
+    background-color: #d9a109;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+.thank-you{
+    margin-bottom: 70px;
+}
