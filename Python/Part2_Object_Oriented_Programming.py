@@ -232,7 +232,7 @@ class Animal():
 
 class Dog(Animal):
     def __init__(self):
-        super().__init__(self)
+        # super().__init__(self)
         print ("Dog created")
 
     def whoAmI(self):
@@ -280,7 +280,7 @@ class Book():
         self.pages = pages
 
     def __str__(self):
-        return "Title:%s , author:%s, pages:%s " %(self.title, self.author, self.pages)
+        return "Title: {}, author: {}, pages: {}".format(self.title, self.author, self.pages)
 
     def __len__(self):
         return self.pages
