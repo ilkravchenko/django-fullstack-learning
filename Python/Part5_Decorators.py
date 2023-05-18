@@ -96,7 +96,7 @@ greet()
 # we can define functions inside of other functions:
 
 def hello(name='Jose'):
-    print 'The hello() function has been executed'
+    print ('The hello() function has been executed')
 
     def greet():
         return '\t This is inside the greet() function'
@@ -110,7 +110,7 @@ def hello(name='Jose'):
 
 hello()
 # Uh oh!
-welcome()
+########     welcome()
 
 
 # Note how due to scope, the welcome() function is not defined outside of the
@@ -168,8 +168,8 @@ def hello():
     return 'Hi Jose!'
 
 def other(func):
-    print 'Other code would go here'
-    print func()
+    print ('Other code would go here')
+    print (func())
 
 other(hello)
 
@@ -187,16 +187,16 @@ other(hello)
 def new_decorator(func):
 
     def wrap_func():
-        print "Code would be here, before executing the func"
+        print ("Code would be here, before executing the func")
 
         func()
 
-        print "Code here will execute after the func()"
+        print ("Code here will execute after the func()")
 
     return wrap_func
 
 def func_needs_decorator():
-    print "This function is in need of a Decorator"
+    print ("This function is in need of a Decorator")
 
 func_needs_decorator()
 
@@ -212,7 +212,7 @@ func_needs_decorator()
 
 @new_decorator
 def func_needs_decorator():
-    print "This function is in need of a Decorator"
+    print ("This function is in need of a Decorator")
 
 func_needs_decorator()
 
