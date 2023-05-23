@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,6 +8,6 @@
     <body>
         <h1>Hello, this is index.html!</h1>
         {{ insert_me }} 
-
+        <img src='{% static "images/photo.jpg" %}' alt='Photo here'>
     </body>
 </html>
