@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,5 +9,10 @@
         <h1>Hello, this is index.html!</h1>
         {{ insert_me }} 
         <img src='{% static "images/photo.jpg" %}' alt='Photo here'>
+
+        {% for item in list %}
+            <h1>{{item}}</h1>
+        {% endfor %}
+
     </body>
 </html>
